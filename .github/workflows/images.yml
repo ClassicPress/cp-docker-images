@@ -60,5 +60,5 @@ jobs:
           context: ./
           push: true
           platforms: linux/amd64,linux/arm64
-          file: ./nginx/Dockerfile
+          file: ./nginx/8.0/Dockerfile
           tags: classicpress/classicpress:nginx-php8.0
